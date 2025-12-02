@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import './Sidebar.css';
 
 const navItems = [
-  { to: '/dahsboard', label: 'Dashboard' },
+  { to: '/dashboard', label: 'Dashboard' },
   { to: '/projects', label: 'Projects' },
   { to: '/clients', label: 'Clients' },
   { to: '/tasks', label: 'Tasks' },

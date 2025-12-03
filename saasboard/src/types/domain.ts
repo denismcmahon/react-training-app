@@ -33,6 +33,7 @@ export interface Project {
     budget?: number;
     startDate?: ISODateString;
     endDate?: ISODateString;
+    createdAt: ISODateString;
     updatedAt: ISODateString;
     isArchived: boolean;
 }
